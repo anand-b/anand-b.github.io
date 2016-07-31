@@ -27,7 +27,7 @@ def main(spath,dpath):
 				main(filePath,dpathTemp)
 			else:
 				srcFileObj = open(filePath,"r")
-				destFileObj = open(dpathTemp,"w")
+				destFileObj = open(dpathTemp+".html","w")
 				isBlogActive = ""
 				if "/blog/" in filePath:
 					isBlogActive = "active"
