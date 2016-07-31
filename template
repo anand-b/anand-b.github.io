@@ -12,7 +12,7 @@
 				<p class="description"> </p>
 			</section>
 			<ul class="menu">
-				<a role="tab" class="menu-item partial-loader {is-blog-active}" url="/blogs/all.html">
+				<a role="tab" class="menu-item partial-loader {is-blog-active}" url="/blogs/all">
 					Blog
 				</a>
 			</ul>
