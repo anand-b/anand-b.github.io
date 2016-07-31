@@ -28,6 +28,8 @@ ul {
 .content {
 	background-color:#ece8df;
 	padding:10px;
+	overflow-y: auto;
+	overflow-x:hidden;
 }
 .navigation {
 	background-color:#333333;
@@ -63,7 +65,7 @@ ul {
 }
 .navigation .menu .menu-item.active {
 	border-left:#ffffff 5px solid;
-	background-color:#444444;
+	background-color:#444444;r
 }
 .navigation .menu .menu-item:hover {
 	background-color:#444444;
@@ -92,4 +94,38 @@ blog-post blog-title {
 }
 blog-post blog-content {
 	display:block;
+	margin-top:40px;
+	text-indent: 10px;
+	font-size:16px;
+}
+blog-post blog-content ul {
+	padding:15px 0px 0 50px;
+}
+blog-post blog-content ul > li {
+	margin:5px 0;
+}
+blog-list {
+	display:block;
+}
+blog-list blog-item {
+	display: block;
+	padding:10px;
+}
+blog-list blog-item blog-title a:hover {
+	text-decoration: underline;
+}
+blog-list blog-item blog-title {
+	display:block;
+	font-weight:500;
+	font-size:24px;
+	padding:10px 0;	
+}
+blog-list blog-item blog-title a {
+	color:#333333;
+	text-decoration: none;
+}
+tab {
+	width:8px;
+	display: inline-block;
+	padding: 1px 20px;
 }
