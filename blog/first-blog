@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../styles/main.css" type="text/css" />
+	</head>
+	<body onload="init()">
+		<nav class="absolute-left navigation">
+			<section class="summary center">
+				<div class="dp" style="background-image:url('../img/dp.jpg');background-position: -7px 0px;"></div>
+				<h2 class="name">Anand Balan</h2>
+				<p class="description"> </p>
+			</section>
+			<ul class="menu">
+				<a role="tab" class="menu-item partial-loader active" url="/blogs">
+					Blog
+				</a>
+			</ul>
+		</nav>
+		<div class="absolute-right content">
+			<blog-post>
+	<blog-title>First blog post</blog-title>
+	<blog-content></blog-content>
+</blog-post>
+		</div>
+	</body>
+	<script src="../scripts/main.js"></script>
+</html>
