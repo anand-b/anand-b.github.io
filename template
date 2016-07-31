@@ -11,7 +11,7 @@
 				<p class="description"> </p>
 			</section>
 			<ul class="menu">
-				<a role="tab" class="menu-item partial-loader {is-blog-active}" url="/blogs">
+				<a role="tab" class="menu-item partial-loader {is-blog-active}" url="/blogs/all.html">
 					Blog
 				</a>
 			</ul>
