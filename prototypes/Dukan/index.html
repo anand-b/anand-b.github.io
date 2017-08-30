@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="dukan.css">
+<link rel="stylesheet" type="text/css" href="dukan_header.css">
+<link rel="stylesheet" type="text/css" href="dukan_content.css">
+<link rel="stylesheet" type="text/css" href="dukan_footer.css">
+<script src="../lib/jquery-1.9.1.min.js"></script>
+<title>Dukan</title>
+</head>
+<script src="dukan_main.js" type="text/javascript"></script>
+<body>
+	<div id="wrapper">
+        <div id="header">
+            <img id="logo" src="Dukan.png" height="50px" width="200px"/>
+            <div id="navbar">
+                <span id="navempty"></span>
+                <form id="searchbar">
+                    <input id="search" type="text" value="Search"/>
+                </form>
+                <span id="register">Register</span>
+                <span id="signin">Sign In</span>
+            </div>
+        </div>
+        
+        <div id="content">        
+        	<span class="left-pane">
+                <div id="open-menu">
+                    <span id="menulist">
+                        <img src="arrows.png" id="uparrow" ></img>  
+                        <div id="allitems">
+                        <div id="items" style="border-bottom:thin #999 solid;border-top:thin #999 solid;">Groceries</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Toys</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Gifts</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Accessories</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Utensils</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Stationery</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Plasticwares</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Cosmetics</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Toiletries</div>
+                        <div id="items" style="border-bottom:thin #999 solid;">Toiletries</div>
+                        </div>
+                        <img src="arrows1.png" id="downarrow"></img>                
+                    </span>
+                    <span id="menuicon"></span>
+                 </div>
+        	</span>
+        	<div id="middle-pane">
+        		<div id="adsmall" >
+                    <span id="adsmallempty"></span>
+                    <img src="adsmall.jpg" style="margin:0px auto;"/>
+  	            </div>
+       	        <div id="menu-item">
+                	<div id="adbox">
+                        <div id="options1" class="option-name option-selected"  >Relaunching Compaq</div>
+                        <div id="options2" class="option-name option-unselected" style="margin-left:-3px">Holi Special Offer!</div>
+                        <div id="options3" class="option-name option-unselected" style="margin-left:-3px">10% Cashback on Selected Laptops</div>
+                        <div >
+                        	<img id="ad" src="ad1.jpg" width="658px"/>
+                        </div>
+                   </div>
+            	</div>
+             </div>
+        	<span id="registerform">
+            	<div id="upperreg">
+                    <br />
+                    <div id="glad">Welcome to Dukan</div>
+                    <br /><br />
+                    <form>
+                    <table>
+                    <tr id="formrow"><td>First Name</td><td><input id="textboxstyle" type="text"/></td></tr>
+                    <tr id="formrow"><td>Last  Name</td><td> <input id="textboxstyle" type="text"/></td></tr>
+                    <tr id="formrow"><td>E-mail ID</td><td> <input id="textboxstyle" type="text"/></td></tr>
+                    <tr id="formrow"><td>Password</td><td> <input id="textboxstyle" type="password"/></td></tr>
+                    <tr id="formrow">
+                    <td>State</td>
+                    <td> 
+                    <select id="liststyle">
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="West Bengal">West Bengal</option>
+                    </select></td>
+                    </tr>   
+                    <tr id="formrow">
+                    <td>City</td>
+                    <td> 
+                    <select id="liststyle">
+                    <option value="Chennai">Chennai</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Kolkata">Kolkata</option>
+                    </select></td>
+                    </tr>                
+                    </table>
+                    <div id="buttonrow" style="font-size:12px;margin-left:10px;"><input type="checkbox" value="accepted"/>I agree to the Terms And Conditions</div>
+                    <div id="buttonrow"><input id="buttonstyle" type="button" value="Sign up"/></div>
+                    </form>
+                </div>
+            </span>
+            <span id="signinform">
+            	<div id="upperreg">
+                    <br />
+                    <div id="glad">Sign into Dukan</div>
+                    <br /><br />
+                    <form>
+                    <table>
+                    <tr id="formrow"><td>E-mail ID</td><td> <input id="textboxstyle" type="text"/></td></tr>
+                    <tr id="formrow"><td>Password</td><td> <input id="textboxstyle" type="password"/></td></tr>
+                    </table>
+                    <div id="buttonrow" style="margin-right:10px;"><input id="buttonstyle" type="button" value="Sign in"/></div>
+                    </form>
+                </div>
+            </span>
+    	</div>
+        <div id="footer">
+	    <br />
+ 	   <div id="footercontent">
+            <span id="footerbox" style="border-right:thin #CCC solid;">
+            	<div id="footer-title">Help</div>
+            	<a href="" id="footer-info">FAQ</a>
+            	<a href="" id="footer-info">Payment methods</a>
+            	<a href="" id="footer-info">Site map</a>                                
+            	<a href="" id="footer-info">Shipping</a>
+                <div id="footer-title">For Customer Support</div>
+            	<div href="" id="footer-title" style="font-size:12px; height:30px; line-height:30px; color:#666;">Dial Toll Free Number:</div>                
+               	<a href="" id="footer-info">+91-7845274825</a>
+            </span>
+            <span id="footerbox" style="border-right:thin #CCC solid;">
+	            <div id="footer-title">Dukan</div>
+            	<a href="" id="footer-info">About US</a>
+            	<a href="" id="footer-info">What drived Dukan into web?</a>
+            	<a href="" id="footer-info">Products</a>        
+   	            <div id="footer-title">Feedback</div>                        
+            </span>
+            <span id="footerbox" style="border-right:thin #CCC solid;">
+	            <div id="footer-title">Terms and Conditions</div>
+            	<a href="" id="footer-info">Disclaimer</a>                                
+            	<a href="" id="footer-info">Privacy Policy</a>
+            	<a href="" id="footer-info">Payment Terms</a>
+            	<a href="" id="footer-info">Shipping Terms</a>
+            </span>
+            <span id="footerbox" style="border-right:thin #CCC solid;">
+                <div id="footer-title">Contact</div>
+            	<div id="footer-info1" style="font-size:15px;"><strong>Dukan India</strong></div>          
+            	<div id="footer-info1">No.xx, xxxx Nagar xyz Street</div>
+            	<div id="footer-info1">xyz area,</div>
+            	<div id="footer-info1">Chennai-600xxx</div>
+            	<strong id="footer-info1">Email:</strong><a href="" id="footer-info" style="font:"Myriad Pro";"> support@dukan.com</a>
+            </span>
+            <span id="footerbox">
+                <div id="footer-title" style="text-align:center;">A Product of </div>
+	            <img src="bored.png" id="bored" width="188.5" height="93" />
+                <div id="footer-info1">Copyright © Dukan Company 2014 - Present</div>
+                <div id="footer-title" style="text-align:center;">Share your opinion</div>
+                <a href="" id="footer-info" style="text-align:center;">www.facebook.com/Dukan</a>
+                <a href="" id="footer-info" style="text-align:center;">www.twitter.com/Dukan</a>
+                <a href="" id="footer-info" style="text-align:center;">plus.google.com/Dukan</a>
+            </span>
+        </div>
+    </div>
+    </div>
+    </div>
+<script>
+var i=1;
+var over=false;
+setInterval(option,2500+(i*10));
+function option(){
+	if(over==false){
+		if(i==1){
+			option1Select();
+			i++;
+		}
+		else if(i==2){
+			option2Select();
+			i++;
+		}
+		else
+		{
+			option3Select();
+			i=1;
+		}
+	}
+}
+document.getElementById("options1").onmouseover=function(){
+	over=true;
+	option1Select();
+};
+document.getElementById("options1").onmouseout=function(){
+	over=false;
+};
+document.getElementById("options2").onmouseout=function(){
+	over=false;
+};
+document.getElementById("options3").onmouseout=function(){
+	over=false;
+};
+function option1Select()
+{
+	document.getElementById("options1").className="option-name option-selected";
+	document.getElementById("options2").className="option-name option-unselected";
+	document.getElementById("options3").className="option-name option-unselected";
+	document.getElementById("ad").src="ad1.jpg";
+	i=1;
+}
+document.getElementById("options2").onmouseover=function(){
+	over=true;
+	option2Select();
+};
+function option2Select()
+{
+	document.getElementById("options2").className="option-name option-selected";
+	document.getElementById("options1").className="option-name option-unselected";
+	document.getElementById("options3").className="option-name option-unselected";
+	document.getElementById("ad").src="ad2.jpg";
+	i=2;
+}
+document.getElementById("options3").onmouseover=function(){
+	over=true;
+	option3Select();
+};
+function option3Select()
+{
+	document.getElementById("options2").className="option-name option-unselected";
+	document.getElementById("options1").className="option-name option-unselected";
+	document.getElementById("options3").className="option-name option-selected";
+	document.getElementById("ad").src="ad3.jpg";
+	i=1;
+}
+</script>
+</body>
+</html>

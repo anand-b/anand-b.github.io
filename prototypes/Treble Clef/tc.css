@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-color:#efefef;
+	font-family:"Open Sans", "Open Sans Extrabold", "Open Sans Light", "Open Sans Semibold";
+	font-size:18px;
+	color:#444;
+}
+#wrapper
+{
+	width:auto;
+	height:auto;
+}
+#header-content
+{
+	height:100px;
+	margin:0px auto;
+	border-bottom:#aaa dashed thin;
+	margin-bottom:20px;
+}
+#image
+{
+	margin-top:20px;
+}
+#body-content
+{
+	margin:0px auto;
+	width:1000px;
+
+}
+#left
+{
+	height:50px;
+	width:50px;
+	border-top:#333 thick solid ;
+	border-left:#333 thick solid;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-ms-tranform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
+#left:hover
+{
+	border-top:#CCC thick solid ;
+	border-left:#CCC thick solid;
+}
+
+#right
+{
+	height:50px;
+	width:50px;
+	border-top:#333 thick solid ;
+	border-right:#333 thick solid;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-tranform:rotate(45deg);
+	transform:rotate(45deg);
+	cursor:auto;
+}
+#right:hover
+{
+	border-top:#CCC thick solid ;
+	border-right:#CCC thick solid;
+}
+#card
+{
+	height:400px;
+	width:400px;
+	background-color:#FFF;
+	box-shadow:0px 0px 5px #999;
+	margin:0px auto;
+}
+#card-header
+{
+	height:90px;
+	
+	border-bottom:#CCC thin solid;
+	margin:0px auto;
+}
+#titlebar
+{
+	width:350px;
+	text-align:right;
+	
+}
+#year
+{
+	font-weight:800;
+}
+#menu
+{
+	width:50px;
+	height:50px;
+}
+#navicon:hover
+{
+	color:#999;
+}
+#menubar
+{
+	width:50px;
+	height:50px;
+	margin:0px auto;
+	cursor:pointer;
+	font-size:24px;
+}
+#song-title
+{
+	font-weight:bold;
+	font-size:24px;	
+}
+#artist
+{
+	font-size:12px;
+	font-weight:800;
+}
+#composer
+{
+	font-size:16px;	
+}
+#card-body
+{
+	height:270px;
+	border-bottom:#CCC thin solid;
+}
+#albumart
+{
+	width:200px;
+	height:200px;
+	border:#666 thick double;
+	display:table-cell;
+	margin:5px auto;
+}
+#control
+{
+	background: -webkit-linear-gradient(#333,#444,#555,#444,#333);
+	background: -moz-linear-gradient(#333,#444,#555,#444,#333);
+	background: -ms-linear-gradient(#333,#444,#555,#444,#333);
+	width:380px;
+	height:50px;
+	margin:0px auto;
+	border-radius:50px;
+	text-align:center;
+}
+#prev
+{
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-right:12px solid white;
+	width:0;
+	height:0;
+	cursor:pointer;
+	display:inline-table;
+	margin:auto;
+}
+#play
+{
+	
+}
+.playbut
+{
+	border-top:15px solid transparent;
+	border-bottom:15px solid transparent;
+	border-left:18px solid white;
+	width:0;
+	height:0;
+	cursor:pointer;
+	display:inline-table;
+	margin:auto;
+}
+.pausebut
+{
+	border-right:#FFF thick solid ;
+	border-left:#FFF thick solid;
+	width:10px;
+	height:25px;
+	cursor:pointer;
+	display:inline-table;
+	margin:auto;
+	margin-left:4px;
+	margin-right:4px;
+}
+#stop
+{
+}
+.disabled
+{
+	width:20px;
+	height:20px;
+	background:#999;
+	margin:0px auto;
+	cursor:auto;
+}
+.enabled
+{
+	width:20px;
+	height:20px;
+	background:#FFF;
+	margin:0px auto;
+	cursor:pointer;
+}
+#next
+{
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-left:12px solid white;
+	width:0;
+	height:0;
+	cursor:pointer;
+	display:inline-table;
+	margin:auto;
+}
+#totaltime
+{
+	height:30px;
+	text-align:center;
+	color:#CCC;
+	line-height:30px;
+}
+#currtime
+{
+	height:30px;
+	text-align:center;
+	color:#CCC;
+	line-height:30px;
+}
+#card-footer
+{
+	height: 30px;
+}
+#reviews
+{
+	width:300px;
+	font-size:15px;
+	text-indent:10px;
+	line-height:30px;
+	margin-left:10px;
+	display:inline;
+}
+#heart
+{
+	width:100px;
+	height:30px;
+	text-align:right;
+	line-height:30px;
+	color:#09F;
+	cursor:pointer;
+}
+#h
+{
+	width:30px;
+	height:30px;
+	position:relative;
+	left:10px;
+	top:5px;
+}
+#h:before
+{
+	position:absolute;
+	background:#999;
+	content:"";
+	width:10px;
+	height:17px;
+	border-radius:10px 10px 0 0;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-ms-tranform:rotate(-45deg);
+	tranform:rotate(-45deg);
+}
+#h:after
+{
+	position:absolute;
+	left:5px;
+	background:#999;
+	content:"";
+	width:10px;
+	height:17px;
+	border-radius:10px 10px 0 0;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-tranform:rotate(45deg);
+	tranform:rotate(45deg);
+}
+#footer-content
+{
+	height:30px;
+	margin-top:10px;
+	border-top:#999 thin dashed ;
+}

@@ -1,0 +1,186 @@
+#content {
+	min-height:430px;
+}
+#progress {
+	height:120px;
+	width:auto;
+	padding:1px;
+	margin:10px 20px;
+	margin-top:50px;
+	margin-bottom:50px;
+	background-color:#d3e3b3;
+}
+#progressbar {
+	width:90%;
+	margin:0px auto;
+	height:40px;
+	padding:1px;
+}
+#meter {
+	width:0.1%;
+	height:10px;
+	background-color:#283d00;
+}
+#nummeter{
+	line-height:30px;
+	text-align:center;
+}
+#pending-heading{
+	height:50px;
+	width:1050px;
+	text-align:center;
+	color:white;
+	line-height:50px;
+	margin-left:-25px;
+	margin-right:-25px;
+	background-color:#283D00;
+}
+#pending-heading:after{
+	width:0;
+	height:0;
+	content:" ";
+	position:relative;
+	top:50px;
+	right:0;
+	float:right;
+	border-bottom:10px solid transparent;
+	border-right:15px solid transparent;
+	border-top:10px solid #222222;
+	z-index:-99;
+}
+#pending-heading:before{
+	width:0;
+	height:0;
+	content:" ";
+	position:relative;
+	top:50px;
+	left:0;
+	float:left;
+	border-bottom:10px solid transparent;
+	border-left:15px solid transparent;
+	border-top:10px solid #222222;
+	z-index:-99;
+}
+#accomplished-heading{
+	height:50px;
+	width:1050px;
+	text-align:center;
+	color:white;
+	line-height:50px;
+	margin-left:-25px;
+	margin-right:-25px;
+	background-color:#283D00;
+}
+#accomplished-heading:after{
+	width:0;
+	height:0;
+	content:" ";
+	position:relative;
+	top:50px;
+	right:0;
+	float:right;
+	border-bottom:10px solid transparent;
+	border-right:15px solid transparent;
+	border-top:10px solid #222222;
+	z-index:-99;
+}
+#accomplished-heading:before{
+	width:0;
+	height:0;
+	content:" ";
+	position:relative;
+	top:50px;
+	left:0;
+	float:left;
+	border-bottom:10px solid transparent;
+	border-left:15px solid transparent;
+	border-top:10px solid #222222;
+	z-index:-99;
+}
+#accomplishedcard{
+	height:50px;
+	width:1000px;
+	background-color:white;
+	box-shadow:0px 0px 2px #283D00;
+	line-height:50px;
+	margin:0px auto;
+	padding:1px;
+	margin-top:20px;
+	transition:height 0.5s;
+	-webkit-transition: height 0.5s;
+	-moz-transition:height 0.5s;
+	overflow:hidden;
+}
+#accomplishedcard:hover{
+	height:100px;
+}
+#acctitle{
+	width:39%;
+	font-weight:bold;
+	padding-left:10px;
+	float:left;
+}
+#acccompleted{
+	width:30%;
+	font-weight:bold;
+	float:left;
+}
+#accdeadline{
+	width:30%;
+	font-weight:bold;
+	float:left;
+}
+#pendingcard{
+	height:50px;
+	width:1000px;
+	background-color:white;
+	box-shadow:0px 0px 2px #283D00;
+	line-height:50px;
+	margin:0px auto;
+	padding:1px;
+	margin-top:20px;
+	transition:height 0.5s;
+	-webkit-transition: height 0.5s;
+	-moz-transition:height 0.5s;
+	overflow:hidden;
+}
+#pendingcard:hover{
+	height:100px;
+}
+#p_t{
+	width:39%;
+	font-weight:bold;
+	padding-left:10px;
+	float:left;
+}
+#p_c{
+	width:30%;
+	font-weight:bold;
+	float:left;
+}
+#p_d{
+	width:30%;
+	font-weight:bold;
+	float:left;
+}
+#rating{
+	width:350px;
+	height:30px;
+	margin-top:5px;
+	text-align:center;
+}
+#askrate{
+	height:30px;
+	line-height:50px;
+	float:left;
+	text-indent:10px;
+	margin-right:10px;
+}
+li{
+	list-style: none;
+	margin-left:-40px;
+}
+form
+{
+	float:left;
+}

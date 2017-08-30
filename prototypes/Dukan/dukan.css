@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:"Myriad Pro", "Adobe Caslon Pro", "Microsoft Yi Baiti";
+}
+#wrapper
+{
+	margin:-8px -8px 0px -8px;
+	width:1350px;
+	white-space:nowrap;
+}
+/*----------------------------------------*/

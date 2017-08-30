@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+body {
+	background-color:#e6e6e6;
+	margin:0px;
+	font-family:"Open Sans",sans-serif;
+}
+
+div{
+	padding:1px;
+}
+header{
+	height:10px;
+	width:auto;
+}
+footer{
+	height:50px;
+}
+#welcome
+{
+	background-color:white;
+	margin:0px auto;
+	text-align:center;
+}
+#onelogin{
+	margin-bottom:10px;
+}
+#username
+{
+	width:250px;
+	height:40px;
+	text-indent:10px;
+	color:#575757;
+	margin-top:10px;
+	display:inline-block;
+}
+#password
+{
+	width:250px;
+	height:40px;
+	text-indent:10px;
+	margin-top:10px;
+	color:#575757;
+	display:inline-block;
+}
+#google{
+	width:400px;
+	background-color:white;
+	margin:0px auto;
+	margin-top:20px;
+	text-align:center;
+	display:none;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+}
+#gmail
+{
+	width:250px;
+	height:40px;
+	text-indent:10px;
+	color:#575757;
+	display:inline-block;
+	margin-bottom:10px;
+}
+#gpass
+{
+	width:250px;
+	height:40px;
+	text-indent:10px;
+	color:#575757;
+	display:inline-block;
+	margin-bottom:10px;
+}
+#outlook{
+	width:400px;
+	background-color:white;
+	margin-top:20px;
+	text-align:center;
+	display:none;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+}
+#omail
+{
+	width:250px;
+	height:40px;
+	text-indent:10px;
+	color:#575757;
+	display:inline-block;
+	margin-bottom:10px;
+}
+#opass
+{
+	width:250px;
+	height:40px;
+	text-indent:10px;
+	color:#575757;
+	display:inline-block;
+	margin-bottom:10px;
+}
+#yahoo{
+	width:400px;
+	background-color:white;
+	margin-top:20px;
+	text-align:center;
+	display:none;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+}
+#ymail
+{
+	width:250px;
+	height:40px;
+	text-indent:10px;
+	color:#575757;
+	display:inline-block;
+	margin-bottom:10px;
+}
+#ypass
+{
+	width:250px;
+	height:40px;
+	text-indent:10px;
+	color:#575757;
+	display:inline-block;
+	margin-bottom:10px;
+}
+#register{
+	width:1270px;
+	padding:1px;
+	text-align:center;
+	margin-top:10px;
+}
+#regbutton{
+	background-color:#453401;
+	color:white;
+	font-weight:bold;
+	font-size:smaller;
+	height:50px;
+	width:120px;
+	outline:none;
+	border:none;
+}
+#regbutton:hover
+{
+	background-color:#9a7402;
+	cursor:pointer;
+}
+
+#cancel
+{
+	background-color:#453401;
+	color:white;
+	font-weight:bold;
+	font-size:smaller;
+	height:50px;
+	width:120px;
+	outline:none;
+	border:none;
+}
+#cancel:hover{
+	background-color:#9a7402;
+	cursor:pointer;
+}
+#wrapper
+{
+	width:1270px;
+	margin:0px auto;	
+}
+

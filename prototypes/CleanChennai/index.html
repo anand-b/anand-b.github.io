@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Clean Chennai</title>
+		<meta name="description" content="">
+		<meta name="author" content="Anand">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		
+		<link href="main.css" type="text/css" rel="stylesheet"/>
+		<link href="home.css" type="text/css" rel="stylesheet"/>
+		<script src="main.js" type="text/javascript"></script>
+		<script src="../lib/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="common.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<header>
+			<div id="menuwrapper">
+				<div id="navmenu">
+					<img src="logo.png" id="logo"/>
+					<a href="" id="home" class="selected" onclick="selectMenu(this);">Home</a>
+					<a href="event.html" id="mission" onclick="selectMenu(this);">Events</a>
+					<div id="services" onclick="selectMenu(this);">
+						Suggestions
+						<a href="" id="vol">Volunteer</a>
+						<a href="" id="com">Complaint</a>
+					</div>
+					<a href="join.html" id="localities" onclick="selectMenu(this);">Join Us</a>
+					<form id="search">
+					<input id="searchbox" type="search" value="Search" onclick="clearText(this);" onfocusout="fillText(this,"Search");"></input>
+					</form>
+				</div>
+			</div>	
+		</header>
+		<div id="clear"></div>
+		<div id="btt" title="Go to Top"></div>
+		<div id="content">
+			<article id="maininfo">
+				<b>Clean Chennai</b> is a non-profit initiative to make the Chennai city clean. We have often wondered how foreign countries keep their environment clean and hygienic. We also wished our city be transformed to one such place. Clean Chennai initiative supports this cause.
+				<br>The initiative is at its nascent stage. It requires volunteers from different walks of life and different parts of chennai city. Not just volunteers, it requires aid and cooperation from public to make this initiative a success.        
+			</article>
+		</div>
+			<div id="othercontent">
+				<h2><div id="heading">Ongoing Events</div></h2>
+				<div id="leftstream">
+					<div id="card"><img id="card1img" src="bgimgs/pocket-friendly.png" /></div>
+					<div id="card"><img id="card1img" src="bgimgs/confidential.png" /></div>
+				</div>
+				<div id="rightstream">
+					<div id="card"><img id="card1img" src="bgimgs/memorable.png" /></div>
+				</div>
+			</div>
+		<div style="clear:both;"></div>
+		<footer>
+			<h4 id="footnote">Copyrights &copy; 2014</h4>
+		</footer>
+	</body>
+	
+</html>

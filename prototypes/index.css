@@ -1,0 +1,61 @@
+body
+{
+	font-family:"Open Sans";
+	background-color:#eee;
+	font-size:18px;	
+}
+header
+{
+	background-color:#237ead;
+	margin:-8px;
+	height:70px;
+	color:white;
+	line-height:70px;
+	font-size:large;
+	text-align: center;
+}
+ul
+{
+	list-style:none;
+	padding:1px;
+}
+li
+{
+	opacity:0.5;
+	height:100px;
+}
+li:hover
+{
+	opacity:1;
+	transition:opacityy 0.5s;
+	-webkit-transition:opacity 0.5s;
+	cursor:pointer;	
+}
+a{
+	color: #000;
+	text-decoration:none;
+}
+a:visited
+{
+	color:black;
+}
+#wrapper
+{
+	width:1000px;
+	height:338px;
+	margin:0px auto;
+	text-align: center;
+	margin-top:50px;
+	background-color:white;
+	box-shadow: 0px 0px 1px #777;
+}
+#rightstream
+{
+	width:500px;
+	float:left;
+}
+#leftstream
+{
+	width:500px;
+	float:left;
+}

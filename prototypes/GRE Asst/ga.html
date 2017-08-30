@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gre Assisstant</title>
+<link href="ga.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div id="header">
+	<table>
+	    <tr>
+        	<td><div id="image"><img src="ga.png" id="ga_icon"/></div></td>
+            <td><div id="flashcard" class="selected">Flash cards</div></td>
+            <td><div id="flashcard" class="unselected">Quiz</div></td>
+            <td><div id="flashcard" class="unselected">Progress</div></td>  
+            <td><div id="flashcard" class="unselected">Profile</div></td>  
+            <td><div id="flashcard" class="unselected">Sign In</div></td>
+			<td><div id="flashcard" class="unselected">Register</div></td>           
+        </tr>
+    </table>
+</div>
+<div id="wrapper">
+    <div draggable="true" ondragstart="drag(event);" id="body-content">
+     	<div id="controls">
+        <table>
+        </table>
+        </div>   
+    </div>
+</div>
+<div id="actions">
+<table>
+<tr>
+<td id="cell" ondragover="allowAccess(event);" ondrop="dropItHere(event);">Pin for Review</td>
+<td id="cell"><input type="radio"/>Done</td>
+<td id="cell">Next Word</td>
+</tr>
+</table>
+</div>
+</body>
+<script>
+function drag(ev)
+{
+	
+}
+function allowAccess(event)
+{
+	event.preventDefault();
+}
+function dropItHere(event)
+{
+	document.getElementById("body-content").style.visibility="hidden";
+}
+</script>
+</html>

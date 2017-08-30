@@ -1,0 +1,57 @@
+#content {
+	width: 1000px;
+	margin: 0px auto;
+	margin-top: 40px;
+	border-bottom:#333333 thin dashed;
+}
+#maininfo {
+	width: auto;
+	text-align: justify;
+	text-indent: 40px;
+	line-height: 40px;
+	word-wrap: normal;
+	padding: 20px;
+}
+#heading{
+	height:50px;
+	width:1050px;
+	background-color:#283D00;
+	line-height:50px;
+	margin-left:-25px;
+	margin-right:-25px;
+	color:white;
+	text-align:center;
+	font-weight:100;
+}
+#heading:after
+{
+	width:0;
+	height:0;
+	content:" ";
+	position:relative;
+	top:50px;
+	left:0;
+	float:right;
+	border-bottom:10px solid transparent;
+	border-right:15px solid transparent;
+	border-top:10px solid #222222;
+	z-index:-99;
+}
+#heading:before
+{
+	width:0;
+	height:0;
+	content:"";
+	position:relative;
+	top:50px;
+	float:left;
+	border-bottom:10px solid transparent;
+	border-left:15px solid transparent;
+	border-top:10px solid #222222;
+	z-index:-99;
+}
+#card1img{
+	max-width:100%;
+	max-height:100%;
+	vertical-align:middle; 
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family:"Open Sans", "Open Sans Extrabold", "Open Sans Light", "Open Sans Semibold";
+	font-size:14px;
+	color:#555;
+	text-align:center;
+}
+#wrapper
+{
+	width:1000px;
+	margin:0px auto;	
+}
+#myself
+{
+	height:300px;
+	width:auto;
+	background-color:#f6f6f6;
+	box-shadow: 0px 0px 2px #666;
+	margin:10px;
+}
+#dp
+{
+	width:25%;
+	height:auto;
+	vertical-align:top;
+	display:inline-block;
+}
+#pic
+{
+	width:150px;
+	height:150px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-top:20px;
+	background-color:#FFF;
+	border:#000 1px dashed;
+	border-radius:100px;
+}
+#cover
+{
+	background-color:#CCC;
+	height:inherit;
+	display:inline-block;
+	width:74%;
+}
+#card
+{
+	background-color:#f6f6f6;
+	width:400px;
+	box-shadow: 0px 2px 2px #666;
+	margin:10px;
+	display:inline-block;
+}
+#cardheader
+{
+	height:75px;
+	border-bottom:#CCC thin solid;
+	line-height:50px;
+}
+#cardbody
+{
+	height:250px;
+	border-bottom:#CCC thin solid;
+}
+#cardfooter
+{
+	height:75px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Treble Clef</title>
+<link href="tc.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+<div id="header-content">
+<img id="image" src="tc.png" />  
+</div>
+<table id="body-content">
+<tr>
+	<td><div id="left"></div></td>
+    <td>
+    <div id="card">
+        <table id="card-header">
+         <tr>
+            <td><div id="navicon" style="font-size:36px;cursor:pointer;">&#9776;</div></td>
+            <td id="titlebar">
+            <div id="song-title">Imaye Imaye</div>
+            <div id="artist">G.V.Prakash Kumar</div>
+            <marquee id="composer">G.V.Prakash Kumar</marquee>
+            </td>
+            <td>
+            <div id="year"></div>
+            </td>
+         </tr>
+        </table>
+        <div id="card-body">
+        	<img id="albumart" src="ZuneAlbumArt.jpg" />
+            <table id="control">
+            	<tr><td><div id="currtime">00:00</div></td>
+				<td><div id="prevcnt"><div id="prev"></div><div id="prev"></div></div></td>
+	           	<td><div id="play" class="playbut" ></div></td>
+                <td><div id="stop" class="disabled"></div></td>
+               	<td><div id="nextcnt"><div id="next"></div><div id="next"></div></div></td>
+                <td><div id="totaltime">00:00</div></td>
+                </tr>
+            </table>
+            <audio  id="song">
+				<source src="Imaye_Imaye-StarMusiQ.Com.mp3" type="audio/mpeg" />
+
+			</audio>
+        </div>
+        <table id="card-footer"> 
+		<tr>
+        	<td><div id="h"></div></td>
+        	<td id="reviews"><a href="" style="color:#09F;text-decoration:none;">1970 reviews</a></td>
+        </tr>
+        </table> 	
+    </div>
+    </td>
+    <td>
+    <div id="right" ></div>
+    </td>
+    </tr>
+</table>
+</div>
+<div id="footer-content"></div>
+</body>
+<script type="text/javascript" src="../lib/jquery-1.9.1.min.js"></script>
+<script>
+var onPlay=false;
+$(document).ready(function()
+{
+	$("#play").click(function()
+	{
+		var totaltime=document.getElementById("song").duration;
+		var minutes=Math.floor(totaltime/60);
+		var seconds=Math.floor(totaltime%60);
+		if (minutes<10)
+			minutes="0"+minutes;
+		if(seconds<10)
+			seconds="0"+seconds;
+		$("#totaltime").text(minutes+":"+seconds);
+		if(!onPlay){
+			document.getElementById("song").play();
+			document.getElementById("play").className="pausebut";
+			document.getElementById("stop").className="enabled";
+			onPlay=true;
+		}
+		else
+		{
+			document.getElementById("song").pause();
+			document.getElementById("play").className="playbut";
+			onPlay=false;
+		}
+		setInterval(function(){
+			var ct=document.getElementById("song").currentTime;
+			var m=Math.floor(ct/60);
+			var s=Math.floor(ct%60);
+			if(m<10)
+				m="0"+m;
+			if(s<10)
+				s="0"+s;
+			$("#currtime").text(m+":"+s);
+			if(ct==totaltime)
+			{
+				$("#currtime").text("00:00");
+				$("#totaltime").text("00:00");
+				document.getElementById("play").className="playbut";
+			}
+		},1000);
+	});
+	$("#prevcnt").click(function(){
+		document.getElementById("song").currentTime-=5;
+	});
+	$("#nextcnt").click(function(){
+		document.getElementById("song").currentTime+=5;
+	});
+	$("#stop").click(function(){
+		document.getElementById("song").pause();
+		console.log(document.getElementById("song").childNodes);
+		document.getElementById("play").className="playbut";
+		document.getElementById("stop").className="disabled";
+		document.getElementById("song").currentTime=0;
+		onPlay=false;
+	});
+});
+</script>
+
+</html>
