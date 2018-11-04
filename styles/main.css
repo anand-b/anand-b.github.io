@@ -2,23 +2,48 @@
   margin: 0 auto;
   width: 95%;
 }
+.bio {
+	text-align: center;
+}
+.bio > .dp {
+	margin:20px 0 0 0;
+	border-radius:160px;
+	width:120px;
+	height:120px;
+}
 .positions {
 	color:#444;
 	margin:10px 0;
+	padding:0;
 }
-.positions > p {
+.positions > .position {
 	margin:5px 0;
+	display:inline-block;
+}
+.positions > .position::after {
+	content :"|";
+}
+.positions > .position:last-child::after {
+	content :"";
 }
 .highlights > ol {
 	font-size:16px;
 }
+.profiles {
+	margin:20px 0 0 0;
+	padding:0;
+}
+.profiles > .profile {
+	display: inline-block;
+	margin:0px 10px;
+}
 @media only screen and (min-width: 601px) {
   	.container {
-    	width: 90%;
+    	width: 80%;
   	}
 }
 @media only screen and (min-width: 993px) {
   	.container {
-    	width: 80%;
+    	width: 60%;
   	} 	
 }
