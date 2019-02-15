@@ -1,0 +1,26 @@
+.highlights {
+    margin:20px 0;
+}
+.highlights ul {
+    padding: 0;
+}
+.highlights ul > li {
+    margin: 30px 0;
+}
+.highlights .when {
+    color : #ff5845;
+}
+.highlights .title {
+    font-size:18px;
+}
+.highlights .description {
+    font-style: italic;
+}
+.highlights .section {
+    text-align: center;
+}
+@media only screen and (min-width: 993px) {
+    .highlights .section {
+        display:none;
+    }
+}

@@ -1,0 +1,14 @@
+.positions {
+    margin:10px 0;
+    padding:0;
+}
+.positions > .position {
+    margin:5px 0;
+    display:inline-block;
+}
+.positions > .position::after {
+    content :"|";
+}
+.positions > .position:last-child::after {
+    content :"";
+}

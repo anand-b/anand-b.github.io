@@ -1,0 +1,28 @@
+.bio {
+    text-align: center;
+    position: relative;
+    margin: 100px 0 20px 0;
+}
+.bio > .dp {
+    position:absolute;
+    margin:0 auto 10px auto;
+    border-radius:160px;
+    width:150px;
+    height:150px;
+    left: 0;
+    right:0;
+    top : -80px;
+    border:#FFF 7px solid;
+}
+.bio > .headline {
+    margin-top:70px;
+    padding-top: 80px;
+    padding-bottom:30px;
+    margin: 0px auto;
+    background-color: #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to left top,  #FFC371 0%, #FF5F6D 100%);
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #72afd3 100%); */
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+    color:white;
+}

@@ -1,0 +1,57 @@
+.tabs {
+    position:fixed;
+    right:30px;
+    bottom:100px;
+    text-transform: uppercase;
+    background-color: #FFF;
+    border-radius:10px;
+    box-shadow: 2px 2px 5px #333;
+}
+.tabs > .tab {
+    display:block;
+    padding:20px 10px;
+    color:#f76550;
+    cursor: pointer;
+    font-weight:300;
+}
+.tabs > .tab.active, 
+.tabs > .tab:hover {
+    background-color:#e2e2e2;
+}
+button.navicon {
+    outline: none;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffbd61;
+    color:#fff;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 993px) {
+    .tabs {
+        display: block;
+        position:initial;
+        text-align: center;
+        padding : 20px 0;
+        background-color:transparent;
+        border-radius : 10px;
+        box-shadow: none;
+    }
+    .tabs > .tab {
+        display: initial;
+        margin:0 20px;
+    }
+    .tabs > .tab.active, 
+    .tabs > .tab:hover {
+        border-bottom: #f76550 2px solid;
+        background-color: transparent;
+    }
+    button.navicon {
+        display:none;
+    }
+}

@@ -1,0 +1,16 @@
+.profiles {
+    margin:30px 0 0 0;
+    padding:0;
+}
+.profiles > .profile {
+    display: inline-block;
+    margin:0px 10px;
+}
+.profiles > .profile > a {
+    color:white;
+    padding:7px;
+    border-radius:10px;
+}
+.profiles > .profile > a:hover {
+    background-color: #d8703c;
+}

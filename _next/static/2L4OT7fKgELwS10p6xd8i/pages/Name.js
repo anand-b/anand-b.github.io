@@ -1,0 +1,6 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{"0MoN":function(t,n,e){"use strict";e.r(n);var r=e("q1tI"),o=e.n(r);n.default=function(t){return o.a.createElement("h1",null,t.fullName)}},"8Hg6":function(t,n,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/Name",function(){var t=e("0MoN");return{page:t.default||t}}])},MgzW:function(t,n,e){"use strict";
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/var r=Object.getOwnPropertySymbols,o=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;t.exports=function(){try{if(!Object.assign)return!1;var t=new String("abc");if(t[5]="de","5"===Object.getOwnPropertyNames(t)[0])return!1;for(var n={},e=0;e<10;e++)n["_"+String.fromCharCode(e)]=e;if("0123456789"!==Object.getOwnPropertyNames(n).map(function(t){return n[t]}).join(""))return!1;var r={};return"abcdefghijklmnopqrst".split("").forEach(function(t){r[t]=t}),"abcdefghijklmnopqrst"===Object.keys(Object.assign({},r)).join("")}catch(o){return!1}}()?Object.assign:function(t,n){for(var e,c,i=function(t){if(null==t)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(t)}(t),u=1;u<arguments.length;u++){for(var f in e=Object(arguments[u]))o.call(e,f)&&(i[f]=e[f]);if(r){c=r(e);for(var s=0;s<c.length;s++)a.call(e,c[s])&&(i[c[s]]=e[c[s]])}}return i}}},[["8Hg6",0,1]]]);

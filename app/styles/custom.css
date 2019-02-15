@@ -1,0 +1,10 @@
+body{margin:0;padding:0;text-align: justify;font-family:'Open Sans', sans-serif;font-size:16px;font: weight 1;;}
+h1{font-weight:500;font-size:36px;}
+h4{text-transform: uppercase;margin:25px 0 10px 0;font: weight 1;}
+a{text-decoration: none;color:#378cfd;}
+ol{padding-left:18px;}
+ul{list-style: none;}
+li{margin:7px 0;}
+p{font-size:14px;line-height: 20px;}
+hr{display: block;height: 1px;border: 0;border-top: 1px solid #909090;margin: 1em 0;padding: 0;}
+.hide{display:none;}
